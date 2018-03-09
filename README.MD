@@ -16,8 +16,10 @@ url here
 
 Please use Github's issue tracker [here](url!!!)
 
-##License
+## License
 
 Standard MIT license ©
+
+© CC Succulent icon by Joi Stack from the Noun Project
 
 **Thank You for viewing My portfolio. Let's stay in touch!**

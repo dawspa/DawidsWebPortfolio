@@ -2,9 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
     <title>Dawid's portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+<header>
+    <img class="logo" src="img/method-draw-image.svg" alt="succulent logo">
+    <!--CC Succulent icon by Joi Stack from the Noun Project-->
+    <h1 class="name">Dawid Spałek</h1>
+    <h3 class="job">Front-End Developer</h3>
+    <svg class="line" xmlns="http://www.w3.org/2000/svg" width="1400" height="5">
+        <line id="ls" x1="10" y1="0" x2="1390" y2="0" style="stroke:#8F9498; stroke-width:5"></line>
+    </svg>
+</header>
 
+<article>
+    <section id="intro">
+        <picture id="main_banner">
+            <source media="(min-width: 750px)" srcset="img/ 2x, img/">
+            <source media="(min-width: 500px)" srcset="img/">
+            <img src="img/" alt="banner ">
+        </picture>
+        <h1 class="welcome">Hello, I'm Dawid</h1>
+        <h1 class="welcome">I love to make <em>websites!</em></h1>
+    </section>
+    <section id="projects">
+        <h1 class="projects_title">Portfolio</h1>
+        <div class="projects_container">
+            <a class="projects_item" href="fill">
+                <picture class="projects_logo">
+                    <source media="(min-width: 750px)" srcset="img/ 2x, img/">
+                    <source media="(min-width: 500px)" srcset="img/">
+                    <img src="img/" alt="animal card logo">
+                </picture>
+                <h3 class="projects_name">Animal Trading Card</h3>
+            </a>
+            <a class="projects_item" href="fill">
+                <picture class="projects_logo">
+                    <source media="(min-width: 750px)" srcset="img/ 2x, img/">
+                    <source media="(min-width: 500px)" srcset="img/">
+                    <img src="img/" alt="pixel art maker logo">
+                </picture>
+                <h3 class="projects_name">Pixel Art Maker</h3>
+            </a>
+            <a class="projects_item" href="fill">
+                <picture class="projects_logo">
+                    <source media="(min-width: 750px)" srcset="img/ 2x, img/">
+                    <source media="(min-width: 500px)" srcset="img/">
+                    <img src="img/" alt="under construction logo">
+                </picture>
+                <h3 class="projects_name">Memory Game - under construction</h3>
+            </a>
+        </div>
+    </section>
+</article>
+<footer>
+    <svg class="line" xmlns="http://www.w3.org/2000/svg" width="1400" height="5">
+        <line id="ls" x1="10" y1="0" x2="1390" y2="0" style="stroke:#8F9498; stroke-width:5"></line>
+    </svg>
+    <h3 class="author">Made by Dawid Spałek ©</h3>
+    <h3 class="date">Katowice 2018</h3>
+</footer>
 </body>
 </html>
