@@ -1,0 +1,53 @@
+#!/bin/bash
+echo "responsive image script start"
+mkdir tmp
+echo "'tmp' dir made"
+cp *.jpg tmp
+cd tmp
+echo "img copied to tmp"
+mkdir resized
+echo "'resized' dir made"
+echo "resizing..."
+mogrify -resize 2000 *.jpg
+for f in *.jpg; do mv -- "$f" "${f%.jpg}_2x.jpg"; done
+mv *.jpg resized
+echo "resizing 2x done and img moved (to 'resized' dir)"
+cd ..
+cp *.jpg tmp
+cd tmp
+echo "img copied to tmp"
+mogrify -resize 1400 *.jpg
+for f in *.jpg; do mv -- "$f" "${f%.jpg}_1x.jpg"; done
+mv *.jpg resized
+echo "resizing 1x done and img moved"
+cd ..
+cp *.jpg tmp
+cd tmp
+echo "img copied to tmp"
+mogrify -resize 1024 -quality 90 *.jpg
+for f in *.jpg; do mv -- "$f" "${f%.jpg}_1024.jpg"; done
+mv *.jpg resized
+echo "resizing 1024 done and img moved"
+cd ..
+cp *.jpg tmp
+cd tmp
+echo "img copied to tmp"
+mogrify -resize 667 -quality 85 *.jpg 
+for f in *.jpg; do mv -- "$f" "${f%.jpg}_667.jpg"; done
+mv *.jpg resized
+echo "resizing tablet 667 done and img moved"
+cd ..
+cp *.jpg tmp
+cd tmp
+echo "img copied to tmp"
+mogrify -resize 375 -quality 80 *.jpg
+for f in *.jpg; do mv -- "$f" "${f%.jpg}_375.jpg"; done
+mv *.jpg resized
+echo "resizing mobile 375 done and img moved"
+mv * .[^.]* ..
+echo "'resized' dir moved up from tmp"
+cd ..
+rmdir tmp
+echo "'tmp' dir deleted, ending"
+echo "responsive image script succesfull!"
+echo "script by Dawid 'dejwOS' Spałek"
