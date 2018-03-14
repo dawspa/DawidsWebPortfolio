@@ -1,3 +1,57 @@
 html {
+    box-sizing: border-box;
+}
+
+* {
     font-family: 'Lato', sans-serif;
 }
+
+/*HEADER*/
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    height: 20vh;
+    align-content: center;
+}
+
+.logo {
+    align-self: center;
+    padding-top: 1.25em;
+    padding-left: 0.75em;
+    width: 6em;
+    padding-bottom: 0;
+}
+
+.title {
+    align-self: right;
+}
+
+.name {
+    font-weight: 200;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #8F9498;
+}
+
+.job {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: right;
+    color: #6495ed;
+    margin-top: 1em;
+}
+
+.line {
+    max-width: 90vw;
+    margin: auto;
+    padding-top: 1.25em;
+    margin-bottom: 2em;
+}
+/*at 450 logo hidden and 1.5em name*/
+
+/*INTRO*/
+
