@@ -46,7 +46,8 @@ html {
 }
 
 .line {
-    max-width: 90vw;
+    display: flex;
+    max-width: 100%;
     margin: auto;
     padding-top: 1.25em;
     margin-bottom: 2em;
@@ -55,3 +56,35 @@ html {
 
 /*INTRO*/
 
+#intro {
+    margin: auto;
+    width: 80%;
+}
+
+.main_banner {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.main_banner img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    filter: brightness(90%);
+}
+
+.welcome {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+.welcome h1, em{
+    font-family: 'Itim', cursive;
+    font-size: 2em;
+    color: #fff;
+    }
+/*change font size at 600px*/

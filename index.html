@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
     <title>Dawid's portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Itim|Lato" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -13,28 +13,32 @@
         <img class="logo" src="img/method-draw-image.svg" alt="succulent logo">
         <!--CC Succulent icon by Joi Stack from the Noun Project-->
         <div class="title">
-        <h1 class="name">Dawid Spałek</h1>
-        <h3 class="job">Front-End Developer</h3>
+            <h1 class="name">Dawid Spałek</h1>
+            <h3 class="job">Front-End Developer</h3>
         </div>
-        <svg class="line" xmlns="http://www.w3.org/2000/svg" width="2000" height="5">
-            <line id="ls" x1="10" y1="0" x2="2000" y2="0" style="stroke:#8F9498; stroke-width:3"></line>
+        <svg class="line" xmlns="http://www.w3.org/2000/svg" width="3000" height="5">
+            <line id="ls" x1="0" y1="0" x2="3000" y2="0" style="stroke:#8F9498; stroke-width:3"></line>
         </svg>
     </div>
 </header>
 
 <article>
     <section id="intro">
-        <picture id="main_banner">
-            <!--Photo by Edgar on Unsplash-->
-            <source media="(min-width: 1400px)"
-                    srcset="img/resized/edgar-578567-unsplash_2x.jpg 2x, img/resized/edgar-578567-unsplash_1x.jpg">
-            <source media="(min-width: 1024px)" srcset="img/resized/edgar-578567-unsplash_1024.jpg">
-            <source media="(min-width: 667px)" srcset="img/resized/edgar-578567-unsplash_667.jpg">
-            <source media="(max-width: 666px)" srcset="img/resized/edgar-578567-unsplash_375.jpg">
-            <img src="img/resized/edgar-578567-unsplash_1024.jpg" alt="succulent and screen banner image">
-        </picture>
-        <h1 class="welcome">Hello, I'm Dawid</h1>
-        <h1 class="welcome">I love to make <em>websites!</em></h1>
+        <div class="main_banner">
+            <picture>
+                <!--Photo by Edgar on Unsplash-->
+                <source media="(min-width: 1400px)"
+                        srcset="img/resized/edgar-578567-unsplash_2x.jpg 2x, img/resized/edgar-578567-unsplash_1x.jpg">
+                <source media="(min-width: 1024px)" srcset="img/resized/edgar-578567-unsplash_1024.jpg">
+                <source media="(min-width: 667px)" srcset="img/resized/edgar-578567-unsplash_667.jpg">
+                <source media="(max-width: 666px)" srcset="img/resized/edgar-578567-unsplash_375.jpg">
+                <img src="img/resized/edgar-578567-unsplash_1024.jpg" alt="succulent and screen banner image">
+            </picture>
+            <div class="welcome">
+                <h1>Hello, I'm Dawid</h1>
+                <h1>I love to make <em>websites!</em></h1>
+            </div>
+        </div>
     </section>
     <section id="projects">
         <h1 class="projects_title">Portfolio</h1>
