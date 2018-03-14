@@ -86,5 +86,11 @@ html {
     font-family: 'Itim', cursive;
     font-size: 2em;
     color: #fff;
+    line-height: 1;
+    font-weight: 400;
     }
+.welcome em {
+    font-size: 1.8em;
+    color: lightskyblue;
+}
 /*change font size at 600px*/
