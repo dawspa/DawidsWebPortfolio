@@ -19,11 +19,12 @@ html {
     align-content: center;
 }
 
+
 .logo {
     align-self: center;
-    padding-top: 1.25em;
+    padding-top: 1em;
     padding-left: 0.75em;
-    width: 6em;
+    width: 8em;
     padding-bottom: 0;
 }
 
@@ -47,14 +48,12 @@ html {
 }
 
 .line {
-    display: flex;
-    max-width: 100%;
-    margin: auto;
-    padding-top: 1.25em;
+    padding: 1.25em 0;
     margin-bottom: 2em;
 }
 /*at 450 logo hidden and 1.5em name 1em job*/
 /*at 1200 name 2em*/
+/*at 850 logo 6em*/
 
 /*INTRO*/
 
@@ -129,7 +128,7 @@ html {
     width: 100%;
     filter: brightness(90%);
     border: solid 1px #8F9498;
-    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 6px 4px 5px 0 rgba(0,0,0,0.50);
 }
 
 .projects_name {
@@ -144,3 +143,11 @@ html {
 
 /*FOOTER*/
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: start;
+}
