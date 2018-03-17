@@ -43,7 +43,7 @@ html {
     font-size: 1.5em;
     font-weight: bold;
     text-align: right;
-    color: #6495ed;
+    color: #6493e8;
     margin-top: 1em;
 }
 
@@ -132,14 +132,16 @@ html {
 }
 
 .projects_name {
-    color: #8F9498;
+    color: #696f73;
     font-weight: 200;
     text-transform: uppercase;
+    font-size: 1.5em;
 
 }
 
 /*at 1050 title 2em or less*/
-/*at 850 project name 1em or less*/
+/*at 1080 project name 1em*/
+/*at 730 0.5 em*/
 
 /*FOOTER*/
 
@@ -150,4 +152,15 @@ footer {
     margin: auto;
     justify-content: space-between;
     align-items: start;
+}
+
+footer .line {
+    margin-bottom: 0;
+    padding: 5px 0;
+}
+
+.author, .date {
+    color: #4b4e50;
+    font-weight: 200;
+    font-size: 1.5em;
 }
