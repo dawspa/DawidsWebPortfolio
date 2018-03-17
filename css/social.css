@@ -1,7 +1,7 @@
 .icon {
     width: 60px;
     height: 60px;
-    margin: 10px;
+    margin: 10px 0 10px 10px;
     position: relative;
     float: left;
     overflow: hidden;
