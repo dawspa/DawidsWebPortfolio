@@ -9,7 +9,7 @@ https://dawspa.github.io/DawidsWebPortfolio/
 ## Web Projects Featured
 
 * Animal Trading Card
-* Pixel Art Maker `JS` `jQuery`
+* Pixel Art Maker `jQuery`
 * _this_ Portfolio Site
 
 ## Issues
