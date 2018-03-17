@@ -24,4 +24,6 @@ Standard MIT license ©
 
 © Photo by Edgar, Andrew Ridley, Hello I'm Nik on Unsplash
 
+© LinkedIn button by driss on https://codepen.io/di10/pen/qiwav
+
 **Thank You for viewing My portfolio. Let's stay in touch!**

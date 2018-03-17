@@ -159,8 +159,10 @@ footer .line {
     padding: 5px 0;
 }
 
-.author, .date {
+.author {
     color: #4b4e50;
     font-weight: 200;
     font-size: 1.5em;
 }
+
+/*at 600 font size 1em*/
