@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px){
+    .name {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .logo {
+        width: 6em;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .logo {
+        display: none;
+    }
+
+    .name {
+        font-size: 1.5em;
+    }
+
+    .job {
+        font-size: 1em;
+    }
+}
