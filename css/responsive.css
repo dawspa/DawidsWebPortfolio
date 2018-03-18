@@ -1,3 +1,9 @@
+@media screen and (min-width: 1201px) {
+    .projects_item {
+        max-width: 20%;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .name {
         font-size: 2em;
