@@ -1,16 +1,56 @@
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     .name {
         font-size: 2em;
     }
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) {
     .logo {
         width: 6em;
     }
+
+    .projects_title {
+        font-size: 2em;
+    }
+
+    .projects_name {
+        font-size: 1em;
+    }
+
+    .author {
+        font-size: 1em;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        line-height: 50px;
+    }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px) {
+    .welcome h1, em {
+        font-size: 1.5em;
+    }
+
+    .name {
+        font-size: 2em;
+    }
+
+    .projects_title {
+        font-size: 1.5em;
+    }
+
+    .icon {
+        width: 45px;
+        height: 45px;
+        font-size: 25px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 450px) {
     .logo {
         display: none;
     }
@@ -22,4 +62,30 @@
     .job {
         font-size: 1em;
     }
+
+    .projects_name {
+        font-size: 0.8em;
+    }
+
+    .author {
+        font-size: 0.5em;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+    }
 }
+
+@media screen and (max-width: 400px) {
+    .welcome h1, em {
+        font-size: 1em;
+    }
+
+    .projects_name {
+        font-size: 0.6em;
+    }
+}
+

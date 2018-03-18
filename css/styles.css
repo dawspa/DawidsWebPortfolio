@@ -4,7 +4,6 @@ html {
 
 * {
     font-family: 'Lato', sans-serif;
-    /*border:1px solid red;*/
 }
 
 /*HEADER*/
@@ -15,10 +14,9 @@ html {
     width: 80%;
     margin: auto;
     justify-content: space-between;
-    height: 20vh;
+    height: 20%;
     align-content: center;
 }
-
 
 .logo {
     align-self: center;
@@ -49,11 +47,7 @@ html {
 
 .line {
     padding: 1.25em 0;
-    margin-bottom: 2em;
 }
-/*at 450 logo hidden and 1.5em name 1em job*/
-/*at 1200 name 2em*/
-/*at 850 logo 6em*/
 
 /*INTRO*/
 
@@ -83,18 +77,19 @@ html {
     position: absolute;
     text-align: center;
 }
-.welcome h1, em{
+
+.welcome h1, em {
     font-family: 'Itim', cursive;
     font-size: 2em;
     color: #fff;
     line-height: 1;
     font-weight: 400;
-    }
+}
+
 .welcome em {
     font-size: 1.8em;
     color: lightskyblue;
 }
-/*change font size at 600px*/
 
 /*PROJECTS*/
 
@@ -128,7 +123,7 @@ html {
     width: 100%;
     filter: brightness(90%);
     border: solid 1px #8F9498;
-    box-shadow: 6px 4px 5px 0 rgba(0,0,0,0.50);
+    box-shadow: 6px 4px 5px 0 rgba(0, 0, 0, 0.50);
 }
 
 .projects_name {
@@ -136,12 +131,7 @@ html {
     font-weight: 200;
     text-transform: uppercase;
     font-size: 1.5em;
-
 }
-
-/*at 1050 title 2em or less*/
-/*at 1080 project name 1em*/
-/*at 730 0.5 em*/
 
 /*FOOTER*/
 
@@ -164,5 +154,3 @@ footer .line {
     font-weight: 200;
     font-size: 1.5em;
 }
-
-/*at 600 font size 1em*/
