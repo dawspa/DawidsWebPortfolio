@@ -66,6 +66,10 @@
         font-size: 1.5em;
     }
 
+    .welcome i {
+        font-size: 2em;
+    }
+
     .name {
         font-size: 1.6em;
     }
@@ -129,6 +133,10 @@
 @media screen and (max-width: 400px) {
     .welcome h1, em {
         font-size: 1em;
+    }
+
+    .welcome i {
+        font-size: 1.5em;
     }
 
     .name {
