@@ -11,6 +11,7 @@ https://dawspa.github.io/DawidsWebPortfolio/
 * Animal Trading Card
 * Pixel Art Maker `jQuery`
 * _this_ Portfolio Site
+* Memocraft `JS ES6`
 
 ## Issues
 
@@ -22,8 +23,10 @@ Standard MIT license ©
 
 © CC Succulent icon by Joi Stack from the Noun Project
 
-© Photo by Edgar, Andrew Ridley, Hello I'm Nik on Unsplash
+© Photo by Edgar, Andrew Ridley on Unsplash
 
 © LinkedIn button by driss on https://codepen.io/di10/pen/qiwav
+
+
 
 **Thank You for viewing My portfolio. Let's stay in touch!**
