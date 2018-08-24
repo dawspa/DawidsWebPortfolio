@@ -1,3 +1,45 @@
+@media screen and (min-width: 1600px) {
+    .logo {
+        width: 10em;
+    }
+
+    .name {
+        font-size: 4em;
+    }
+
+    .job {
+        font-size: 2em;
+    }
+
+    .welcome h1,
+    em {
+        font-size: 4em;
+    }
+
+    .welcome i {
+        font-size: 6em;
+    }
+
+    .projects_title {
+        font-size: 4em;
+    }
+
+    .projects_name {
+        font-size: 2em;
+    }
+
+    .author {
+        font-size: 2em;
+    }
+
+    .icon {
+        width: 100px;
+        height: 100px;
+        font-size: 60px;
+        line-height: 100px;
+    }
+}
+
 @media screen and (min-width: 1201px) {
     .projects_item {
         max-width: 20%;
@@ -155,4 +197,3 @@
         width: 3em;
     }
 }
-
