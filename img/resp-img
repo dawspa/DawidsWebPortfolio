@@ -32,18 +32,18 @@ cd ..
 cp *.jpg tmp
 cd tmp
 echo "img copied to tmp"
-mogrify -resize 667 -quality 85 *.jpg 
-for f in *.jpg; do mv -- "$f" "${f%.jpg}_667.jpg"; done
+mogrify -resize 485 -quality 85 *.jpg
+for f in *.jpg; do mv -- "$f" "${f%.jpg}_485.jpg"; done
 mv *.jpg resized
-echo "resizing tablet 667 done and img moved"
+echo "resizing tablet 485 done and img moved"
 cd ..
 cp *.jpg tmp
 cd tmp
 echo "img copied to tmp"
-mogrify -resize 375 -quality 80 *.jpg
-for f in *.jpg; do mv -- "$f" "${f%.jpg}_375.jpg"; done
+mogrify -resize 270 -quality 80 *.jpg
+for f in *.jpg; do mv -- "$f" "${f%.jpg}_270.jpg"; done
 mv *.jpg resized
-echo "resizing mobile 375 done and img moved"
+echo "resizing mobile 270 done and img moved"
 mv * .[^.]* ..
 echo "'resized' dir moved up from tmp"
 cd ..
