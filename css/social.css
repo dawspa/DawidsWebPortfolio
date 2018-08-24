@@ -8,9 +8,9 @@
     line-height: 65px;
     text-align: center;
     color: white;
-    font-family: 'FontAwesome';
+    font-family: 'PT Sans', sans-serif;
     /*icon text, cannot substitute*/
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .linkedin {
